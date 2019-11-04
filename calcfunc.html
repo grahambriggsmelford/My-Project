@@ -1,0 +1,78 @@
+
+<link rel="stylesheet" href="cat.css">
+<style>
+	body{
+		background-image: url("head.jpg");
+   		 background-size: cover;
+	}
+
+</style>
+<html>
+
+<script>
+	function btndot()
+	{
+	    document.calculator.display.value+=".";
+	}
+	function btnmult()
+	{
+	    document.calculator.display.value+="*";
+   	}
+	funtion btnadd()
+	    document.calculator.display.value+="+";
+	}	
+	funtion btndiv()
+	     document.calculator.display.value+="/";
+	}
+</script>
+
+<nav>
+        <div>
+                <img src="img/navCat.jpg" alt="">
+            <div>Cat</div> 
+        </div>
+        <ul id="cat2">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Why cats ?</a></li>
+            <li><a href="#">Diet</a></li>
+            <li><a href="calcfunc.html">Calculator</a></li>
+            <li><a href="index.html">To Do</a></li>
+            <a href="#"><button id="button">Adopt Meow</button></a>
+        </ul>
+    </nav>
+
+<h1><b>CALCULATOR<b></h1>
+        <body>
+	<center>
+	<div>
+			<div >	
+	<form  name="My calculator">
+	   <input type="text" placeholder="0" name="display" width:"300px" height:"60px">
+	   </br> 
+	   <input type="button" value="7" onclick="document.calculator.display.value+='7'"
+	      style="width:"60px" height:"60px">
+	   <input type="button"value="8" onclick="document.calculator.display.value+='8'">
+	   <input type="button" value="9" onclick="document.calculator.display.value+='9'"> 
+	   <input type="button" value="%" onclick="document.calculator.display.value+='%'">
+	   <input type="button" value="-" onclick="document.calculator.display.value+='-'">
+	   </br>
+	   <input type="button" value="4" onclick="document.calculator.display.value+='4'"
+	   style="width:"60px" height:"60px">
+	   <input type="button" value="5" onclick="document.calculator.display.value+='5'">  
+	   <input type="button" value="6" onclick="document.calculator.display.value+='6'">
+	   <input type="button" value="/" onclick="document.calculator.display.value+='/'">
+	   <input type="button" value="+" onclick="document.calculator.display.value+='+'">
+	   </br>
+	   <input type="button" value="1" onclick="document.calculator.display.value+='1'"
+	   style="width:"60px" height:"60px">
+	   <input type="button" value="2" onclick="document.calculator.display.value+='2'">
+	   <input type="button" value="3" onclick="document.calculator.display.value+='3'">
+	   <input type="button" value="=" onclick="document.calculator.display.value = eval(document.calculator.display.value)"; style="width:"60px" height:"60px">
+	   <input type="button" value="*" onclick="document.calculator.display.value+='*'" style="width:"60px" height:"60px">
+	   </br>
+	   <input type="button" value="0" onclick="document.calculator.display.value+='0'" style="width:80px" "height:200px"> 
+	   <input type="button" value="." onclick="btndot()" style="width:"60px" height:"60px">
+	</form>
+	</div>	 
+	</center>
+	</body>
